@@ -1,0 +1,34 @@
+body{
+    font-family: monospace;
+}
+
+.button {
+    border: 1px solid black;
+    background-color: aliceblue;
+    color: black;
+    padding: 4px 15px;
+    font-family: monospace;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(201, 227, 250);
+}
+
+.app {
+    margin-top: 100px;
+    display: flex;
+}
+
+.shape__wrapper{
+    display: flex;
+    width: 400px;
+    margin: 30px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input{
+    padding: 3px;
+    font-family: monospace;
+}
